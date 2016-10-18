@@ -11,10 +11,11 @@ body {
 	margin: 0;	
 }
 
-input {
+input, select {
 	width: 100%;
 }
 
+/* set label over input */
 label, input {
 	display: block;
 }
@@ -24,6 +25,7 @@ label, input {
 	text-align: center;
 }
 
+/* content container, to center content and color background */
 .container2 {
 	background: #aaaaaa;
 	width: 100%;
@@ -36,12 +38,14 @@ label, input {
     padding: 15px;
 }
 
+/* content to limit field width */
 .content {
 	width: 50%;
 	text-align: left;
 	margin: auto;
 }
 
+/* fix float "out of flow" */
 .row::after {
     content: "";
     clear: both;
